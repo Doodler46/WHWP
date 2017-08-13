@@ -1,0 +1,441 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* header bar */
+.navbar-default {
+  background: none;
+  border-color: none;
+  padding-top:65px;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #71bf44;
+  font-size:15px;
+}
+.navbar-default .navbar-nav > li > a > i {
+  color: #71bf44;
+  font-size:25px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #00aeef;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a > i:hover,
+.navbar-default .navbar-nav > li > a > i:focus {
+  color: #00aeef;
+  background-color: transparent;
+}
+.navbar-toggle {
+  position: relative;
+  float: left;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: none;
+}
+.navbar-default {
+  background-color: none;
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #71bf44;
+}
+.green-navbar {
+  font-family: 'Montserrat', sans-serif;
+  color:#71bf43;
+  padding:15px;
+}
+.green-navbar i{
+  font-size:25px;
+}
+
+
+
+
+
+/* images */
+#logo {
+  position: absolute;
+  z-index: 10; 	
+}
+#hero {
+  position: absolute;
+  z-index: 0; 	
+}
+#image{
+  position:absolute;
+  width: 100%;	
+}
+
+
+
+/* paragraph styles */
+strong {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color:#427003;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size:15px;
+}
+a {
+  color: #b7b7b7;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #71bf43;
+  text-decoration: none;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;	
+}
+name {
+  font-family: 'Montserrat', sans-serif;
+  color: #00aeef;
+  font-size:20px;
+  font-weight:400;
+}
+
+
+
+
+/* header styles */
+.header-white {
+  margin-bottom:0px;
+}
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: none;
+}
+
+
+
+
+
+
+/* jumbotron */
+.jumbotron {
+  padding: 15px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color:#ffffff;
+  z-index:9;
+  position:relative;
+  margin-top:-20%;
+}
+.container .jumbotron,
+.container-fluid .jumbotron {
+  border-radius: 40px;
+}
+.jumbotron p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size:15px;
+}
+.jumbotron a {
+  color: #00aeef;
+  font-weight: 600;
+}
+.jumbotron a:hover,
+.jumbotron a:focus,
+.jumbotron a.focus {
+
+}
+.jumbotron i {
+  font-size:35px;
+  color: #00aeef;
+}
+.jumbotron i:hover,
+.jumbotron i:focus,
+.jumbotron i.focus {
+  color: #ffffff;
+}
+.jumbotron h3 {
+  font-size:20px;
+  padding-top:20px;
+}
+.jumbotron name {
+  font-family: 'Montserrat', sans-serif;
+  color: #00aeef;
+  font-weight:600;
+}
+.jumbotron role {
+  font-family: 'Montserrat', sans-serif;
+  color: #00aeef;
+  font-weight:400;
+}
+.jumbotron button {
+    background-color: transparent; /* Green */
+    border: 3px solid #00aeef;
+	border-radius:12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    color: #00aeef;
+    padding: 15px;
+	margin-top:25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+	white-space:inherit;
+}
+.jumbotron button:hover,
+.jumbotron button:focus,
+.jumbotron button.focus {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
+  background: #00aeef; /* Old browsers */
+  background: -moz-linear-gradient(#008fd5 0%, #00aeef 100%);
+  background: -webkit-linear-gradient(#008fd5 0%, #00aeef 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#008fd5), to(#00aeef));
+  background: -o-linear-gradient(#008fd5 0%, #00aeef 100%);
+  background: linear-gradient(#008fd5 0%, #00aeef 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008fd5', endColorstr='#00aeef',GradientType=0 ); /* IE6-9 */;
+}
+
+
+
+
+
+/* blue band content */
+.blue-band {
+  background: #00aeef; /* Old browsers */
+  background: -moz-linear-gradient(#008fd5 0%, #00aeef 100%);
+  background: -webkit-linear-gradient(#008fd5 0%, #00aeef 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#008fd5), to(#00aeef));
+  background: -o-linear-gradient(#008fd5 0%, #00aeef 100%);
+  background: linear-gradient(#008fd5 0%, #00aeef 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008fd5', endColorstr='#00aeef',GradientType=0 ); /* IE6-9 */;
+  padding-top:15px;
+  padding-bottom:15px;
+  position:fixed;
+  z-index:9999;
+  width:100%;
+}
+.blue-band p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color:#ffffff;
+}
+.blue-band i {
+  font-weight: 400;
+  color:#ffffff;
+  font-size:30px;	
+}
+.blue-band a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color:#ffffff;
+  font-size:15px;	
+}
+.blue-row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+
+
+
+
+/* green band content */
+.green-band {
+  background: #71bf43; /* Old browsers */
+  background: -moz-linear-gradient(top, #71bf43 0%, #427003 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #71bf43 0%,#427003 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #71bf43 0%,#427003 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71bf43', endColorstr='#427003',GradientType=0 ); /* IE6-9 */
+  padding-bottom:50px;
+  margin-bottom:50px;
+}
+.green-band h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color:#ffffff;
+  font-size:26px;
+}
+.green-band h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color:#ffffff;
+}
+.green-band p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color:#ffffff;
+  font-size:15px;
+}
+.green-band a {
+  text-decoration: none;
+  color:#ffffff;
+}
+.green-band a i {
+  text-decoration: none;
+  color:#ffffff;
+  font-size:25px;
+}
+.green-band a strong {
+  font-weight: 700;
+  color:#ffffff;
+}
+.green-band i {
+  color:#ffffff;
+  font-size:75px;
+}
+.green-band p strong {
+  font-weight: 700;
+  color:#ffffff;
+}
+.green-band button {
+    background-color: transparent; /* Green */
+    border: 5px solid #FFFFFF;
+	border-radius:12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    color: white;
+    padding: 10px 0px;
+	margin-top:25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+	white-space:inherit;
+}
+.green-band button:hover,
+.green-band button:focus,
+.green-band button.focus {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
+  background: #71bf43; /* Old browsers */
+  background: -moz-linear-gradient(top, #71bf43 0%, #427003 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #71bf43 0%,#427003 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #71bf43 0%,#427003 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71bf43', endColorstr='#427003',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+
+
+/* Testimonial */
+.testimonial {
+	margin-top: 100px;	
+}
+.testimonial p {
+  font-family: 'Shadows Into Light', cursive;
+  font-size:30px;
+  color:#008fd5;	
+}
+.testimonial name {
+  font-family: 'Montserrat', sans-serif;
+  font-size:18px;
+  color:#008fd5;	
+}
+.testimonial .row {
+  margin-right:	0;
+  margin-left: 0;
+}
+
+
+
+
+/* Social Media */
+.social {
+  font-size: 50px;	
+  color:#ADADAD;
+  margin-bottom:25px;
+}
+
+
+
+
+
+/* Footer */
+.footer {
+  padding-top:50px;	
+}
+.footer h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  font-weight:700;
+}
+.footer p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight:400;	
+}
+.footer button {
+  background: #00aeef; /* Old browsers */
+  background: -moz-linear-gradient(#008fd5 0%, #00aeef 100%);
+  background: -webkit-linear-gradient(#008fd5 0%, #00aeef 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#008fd5), to(#00aeef));
+  background: -o-linear-gradient(#008fd5 0%, #00aeef 100%);
+  background: linear-gradient(#008fd5 0%, #00aeef 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008fd5', endColorstr='#00aeef',GradientType=0 ); /* IE6-9 */;
+  border-color: none;
+  border-radius:12px;
+  color: white;
+  padding: 3%;
+  margin-top:10px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  width:100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+.footer button a{
+  text-decoration: none;
+  color:#ffffff;
+}
+.footer button:hover,
+.footer button:focus,
+.footer button.focus {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+  background: #71bf43; /* Old browsers */
+  background: -moz-linear-gradient(top, #71bf43 0%, #427003 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #71bf43 0%,#427003 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #71bf43 0%,#427003 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71bf43', endColorstr='#427003',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+

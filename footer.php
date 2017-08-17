@@ -1,10 +1,3 @@
-<footer>
-<link rel="stylesheet" href="css/bootstrap.css">
-<link rel="stylesheet" href="css/font-awesome.css">
-<link rel="stylesheet" href="css/wh.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,600i" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
-
 <footer class="footer">
   <div class="container">
     <div class="col-lg-6 col-md-6 col-sm-6"  style="margin-bottom:25px">
@@ -85,7 +78,6 @@
 </footer>
 
   <p>Copyright &copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. All rights reserved.</p>		   
-</footer>		        
 	<?php wp_footer(); ?>		
 	</body>
 </html>

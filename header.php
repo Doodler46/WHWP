@@ -1,5 +1,5 @@
 <!doctype html>
-<html <?php language_attributes(); ?> class="no-js">
+<html <?php language_attributes(); ?> class="no-js" style="overflow-x: hidden">
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
@@ -14,8 +14,8 @@
 
 	
 	<link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.css" rel="stylesheet">
-  	<link href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.css" rel="stylesheet">
-  	<link href="<?php echo get_template_directory_uri(); ?>/css/wh.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri(); ?>/css/wh.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,600i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
 
@@ -79,7 +79,7 @@
 	  	<div class="container">
 	    	<div class="row">
 			  	<div class="col-lg-12">
-	 	   			<center><img class="img-responsive" src="img/WH_logo.png" alt="logo"/> </center>
+	 	   			<center><a href="http://www.wholehealthmn.com/"><img class="img-responsive" src="img/WH_logo.png" alt="logo"/></a> </center>
 		      </div><!--col div-->
 		    </div><!--row div-->
 	  	</div><!--container div-->

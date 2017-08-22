@@ -34,14 +34,14 @@
 	<div class="blue-row blue-band">
 		<div class="container">
 			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-9"><!--schedule div-->
-  			<a href="https://www.schedulicity.com/scheduling/WHCB4H"><i class="fa fa-calendar" aria-hidden="true"></i> Make an appointment</a>
+  			<a href="https://www.schedulicity.com/scheduling/WHCB4H"><i class="fa fa-calendar" aria-hidden="true"></i> <?php the_field('schedule',4)?></a>
 			</div><!--column (schedule) div-->
 			<div class="col-lg-2 col-md-3 col-sm-3 col-xs-3" style="float:right">
 				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"><!--phone div-->
 					<a href="tel:651-459-2000"><i class="fa fa-phone" aria-hidden="true"></i></a>
 				</div><!--column (phone) div-->
 				<div class="col-lg-9 col-md-9 col-sm-9 hidden-xs"><!--number div-->
-					<a href="tel:651-459-2000">651.459.2000</a>
+					<a href="tel:651-459-2000"><?php the_field('phone',4)?></a>
 				</div><!--column (number) div-->
 			</div><!--column (call) div-->
 		</div><!--container-->
@@ -62,9 +62,8 @@
 				<ul class="nav navbar-nav">
 					<li><a href="http://www.wholehealthmn.com"><i class="fa fa-home" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.wholehealthmn.com/about.html">About Whole Health</a></li>
-					<li><a href="http://www.wholehealthmn.com/meetus.html">Meet Us</a></li>
+					<li><a href="http://www.wholehealthmn.com/meet-us.html">Meet Us</a></li>
 					<li><a href="http://www.wholehealthmn.com/patients.html">New Patients</a></li>
-					<li><a href="http://www.wholehealthmn.com/benefits.html">Benefits</a></li>
 					<li><a href="http://www.wholehealthmn.com/services.html">Services</a></li>
 					<li><a href="http://www.wholehealthmn.com/blog.html">Blog</a></li>
 					<li><a href="http://www.wholehealthmn.com/forms.html">Forms</a></li>
@@ -79,11 +78,11 @@
 	  	<div class="container">
 	    	<div class="row">
 			  	<div class="col-lg-12">
-	 	   			<center><a href="http://www.wholehealthmn.com/"><img class="img-responsive" src="img/WH_logo.png" alt="logo"/></a> </center>
+	 	   			<center><a href="<?php bloginfo('url'); ?>"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/WH_logo.png" alt="logo"/></a></center>
 		      </div><!--col div-->
 		    </div><!--row div-->
 	  	</div><!--container div-->
 	  	<div class="logo">
-	    	<img class="img-responsive" src="img/501295459_hero_large.jpg" alt="hero"/>
+	    	<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/501295459_hero_large.jpg" alt="hero"/>
 	  	</div><!--logo div-->
 	</header>

@@ -2,7 +2,7 @@
   <div class="container">
     <div class="col-lg-6 col-md-6 col-sm-6"  style="margin-bottom:25px">
       <a href="http://www.wholehealthmn.com/about.html"><button type="button" class="btn"><i class="fa fa-stethoscope" aria-hidden="true"></i>  About Whole Health</button></a>
-      <a href="http://www.wholehealthmn.com/meetus.html"><button type="button" class="btn"><i class="fa fa-user" aria-hidden="true"></i>  Meet Us</button></a>
+      <a href="http://www.wholehealthmn.com/meet-us.html"><button type="button" class="btn"><i class="fa fa-user" aria-hidden="true"></i>  Meet Us</button></a>
       <a href="http://www.wholehealthmn.com/patients.html"><button type="button" class="btn"><i class="fa fa-plus-square" aria-hidden="true"></i>  New Patients</button></a>
       <a href="http://www.wholehealthmn.com/services.html"><button type="button" class="btn"><i class="fa fa-medkit" aria-hidden="true"></i>  Services</button></a>
       <a href="http://www.wholehealthmn.com/blog.html"><button type="button" class="btn"><i class="fa fa-pencil" aria-hidden="true"></i>  Blog</button></a>
@@ -11,52 +11,9 @@
 
     <div class="row">
       <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-6 col-xs-12">
-
         <div class="col-lg-12">
-          <h1>Office hours</h1>
-        </div>
-        <div class="col-lg-5 col-xs-6">
-          <p>Monday</p>
-        </div>
-        <div class="col-lg-7">
-          <p>9:00am–12:00pm<br>2:30pm–6:00pm</p>
-        </div>
-        <div class="col-lg-5 col-xs-6">
-          <p>Tuesday</p>
-        </div>
-        <div class="col-lg-7">
-          <p>Closed</p>
-        </div>
-        <div class="col-lg-5 col-xs-6">
-          <p>Wednesday</p>
-        </div>
-        <div class="col-lg-7">
-          <p>9:00am–12:00pm<br>2:30pm–6:00pm</p>
-        </div>
-        <div class="col-lg-5 col-xs-6">
-          <p>Thursday</p>
-        </div>
-        <div class="col-lg-7">
-          <p>4:00pm–6:30pm</p>
-        </div>
-        <div class="col-lg-5 col-xs-6">
-          <p>Friday</p>
-        </div>
-        <div class="col-lg-7">
-          <p>7:50am–12:00pm</p>
-        </div>
-        <div class="col-lg-5 col-xs-6">
-          <p>Saturday</p>
-        </div>
-        <div class="col-lg-7">
-          <p>9:00am–11:00am</p>
-        </div>
-        <div class="col-lg-5 col-xs-6">
-          <p>Sunday</p>
-        </div>
-        <div class="col-lg-7">
-          <p>Closed</p>
-        </div>                
+          <?php the_field('footer_hours',4)?>
+        </div>    
       </div><!--column div-->
     </div><!--row div-->
   </div><!--container div-->

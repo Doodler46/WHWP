@@ -479,5 +479,6 @@ name {
 #footer-nav li:before {
   color: #ffffff;
   font-family: FontAwesome;
+  padding-right: 10px;
 }
 

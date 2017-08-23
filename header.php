@@ -34,14 +34,14 @@
 	<div class="blue-row blue-band">
 		<div class="container">
 			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-9"><!--schedule div-->
-  			<a href="https://www.schedulicity.com/scheduling/WHCB4H"><i class="fa fa-calendar" aria-hidden="true"></i> <?php the_field('schedule',4)?></a>
+  			<a href="<?php the_field('appt_link',4)?>"><i class="fa fa-calendar" aria-hidden="true"></i> <?php the_field('appt_link_text',4)?></a>
 			</div><!--column (schedule) div-->
 			<div class="col-lg-2 col-md-3 col-sm-3 col-xs-3" style="float:right">
 				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"><!--phone div-->
 					<a href="tel:651-459-2000"><i class="fa fa-phone" aria-hidden="true"></i></a>
 				</div><!--column (phone) div-->
 				<div class="col-lg-9 col-md-9 col-sm-9 hidden-xs"><!--number div-->
-					<a href="tel:651-459-2000"><?php the_field('phone',4)?></a>
+					<a href="tel://<?php the_field('phone',4)?>"><?php the_field('phone',4)?></a>
 				</div><!--column (number) div-->
 			</div><!--column (call) div-->
 		</div><!--container-->

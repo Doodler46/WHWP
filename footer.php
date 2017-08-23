@@ -1,6 +1,7 @@
 <footer class="footer">
   <div class="container">
     <div class="col-lg-6 col-md-6 col-sm-6"  style="margin-bottom:25px">
+      <?php wp_nav_menu( array('menu_id' => 'footer-nav')); ?>
       <a href="http://www.wholehealthmn.com/about.html"><button type="button" class="btn"><i class="fa fa-stethoscope" aria-hidden="true"></i>  About Whole Health</button></a>
       <a href="http://www.wholehealthmn.com/meet-us.html"><button type="button" class="btn"><i class="fa fa-user" aria-hidden="true"></i>  Meet Us</button></a>
       <a href="http://www.wholehealthmn.com/patients.html"><button type="button" class="btn"><i class="fa fa-plus-square" aria-hidden="true"></i>  New Patients</button></a>
@@ -25,9 +26,9 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12" style="text-align: center;">
-          <a href="https://www.facebook.com/wholehealthmn/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-          <a href="https://twitter.com/WholeHealthMN/media"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-          <a href="https://www.instagram.com/wholehealthmn/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="<?php the_field('facebook',4)?>"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="<?php the_field('twitter',4)?>"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="<?php the_field('instagram',4)?>"><i class="fa fa-instagram" aria-hidden="true"></i></a>
         </div><!--column div-->
       </div><!--row div-->
     </div><!--container-->

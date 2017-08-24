@@ -440,6 +440,15 @@ name {
   background: linear-gradient(to bottom, #71bf43 0%,#427003 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71bf43', endColorstr='#427003',GradientType=0 ); /* IE6-9 */
 }
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-left: 0;
+}
+#footer-nav ol{
+  padding-left: 0;
+}
 #footer-nav li{
   background: #00aeef; /* Old browsers */
   background: -moz-linear-gradient(#008fd5 0%, #00aeef 100%);

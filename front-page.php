@@ -11,18 +11,44 @@
 
 			<!-- Main Content -->
 			<?php the_content(); ?>
-			
-			<!-- check if the repeater field has rows of data (quote content custom fields) -->
-			<?php if( have_rows('quote') ): ?>
-				<!-- loop through the rows of data -->
-				<?php while ( have_rows('quote') ) : the_row(); ?>
-					<!-- display a sub field value -->
-					<?php the_sub_field('quote_name'); ?>
-					<?php the_sub_field('quote_text'); ?>
-					<?php the_sub_field('quote_image'); ?>
-				<?php endwhile; ?>
-			<?php endif; ?>
 
+			<setion class="testimonial">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<!-- check if the repeater field has rows of data (quote content custom fields) -->
+						<?php if( have_rows('quote_left') ): ?>
+							<!-- loop through the rows of data -->
+							<?php while ( have_rows('quote_left') ) : the_row(); ?>
+								<!-- display a sub field value -->
+								<p>
+									<?php the_sub_field('quote_text_left'); ?>
+								</p>
+								<p>
+									<?php the_sub_field('quote_name_left'); ?>
+								</p>
+								<img src="<?php the_sub_field('quote_image_left'); ?>" alt="<?php the_sub_field('quote_name'); ?>" />
+							<?php endwhile; ?>
+						<?php endif; ?>
+					</div>	<!--/.col-->
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<!-- check if the repeater field has rows of data (quote content custom fields) -->
+						<?php if( have_rows('quote_right') ): ?>
+							<!-- loop through the rows of data -->
+							<?php while ( have_rows('quote_right') ) : the_row(); ?>
+								<!-- display a sub field value -->
+								<p>
+									<?php the_sub_field('quote_text_right'); ?>
+								</p>
+								<p>
+									<?php the_sub_field('quote_name_right'); ?>
+								</p>
+								<img src="<?php the_sub_field('quote_image_right'); ?>" alt="<?php the_sub_field('quote_name'); ?>" />
+							<?php endwhile; ?>
+						<?php endif; ?>
+					</div>	<!--/.col-->
+				</div><!--/.row-->
+			</setion>
+			
 		<!-- End WordPress loop -->
 		<?php endwhile; endif; ?> 
 	

@@ -2,12 +2,6 @@
   <div class="container">
     <div class="col-lg-6 col-md-6 col-sm-6"  style="margin-bottom:25px">
       <?php wp_nav_menu( array('menu_id' => 'footer-nav')); ?>
-      <a href="http://www.wholehealthmn.com/about.html"><button type="button" class="btn"><i class="fa fa-stethoscope" aria-hidden="true"></i>  About Whole Health</button></a>
-      <a href="http://www.wholehealthmn.com/meet-us.html"><button type="button" class="btn"><i class="fa fa-user" aria-hidden="true"></i>  Meet Us</button></a>
-      <a href="http://www.wholehealthmn.com/patients.html"><button type="button" class="btn"><i class="fa fa-plus-square" aria-hidden="true"></i>  New Patients</button></a>
-      <a href="http://www.wholehealthmn.com/services.html"><button type="button" class="btn"><i class="fa fa-medkit" aria-hidden="true"></i>  Services</button></a>
-      <a href="http://www.wholehealthmn.com/blog.html"><button type="button" class="btn"><i class="fa fa-pencil" aria-hidden="true"></i>  Blog</button></a>
-      <a href="http://www.wholehealthmn.com/contact.html"><button type="button" class="btn"><i class="fa fa-phone" aria-hidden="true"></i>  Contact Us</button></a>
     </div><!--button column div-->
 
     <div class="row">
@@ -39,12 +33,11 @@
 	<?php wp_footer(); ?>		
 
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="js/jquery.js"></script> 
-<!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/bootstrap.js"></script>
+
 <!--End Document-->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script src="http://malsup.github.com/jquery.cycle2.js"></script>  
+<script src="http://malsup.github.com/jquery.cycle2.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.js"></script> 
 	</body>
 </html>

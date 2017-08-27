@@ -73,8 +73,6 @@
 
 
 
-
-
 /* images */
 #logo {
   position: absolute;
@@ -177,12 +175,13 @@ name {
 }
 .jumbotron i {
   font-size:35px;
-  color: #00aeef;
+  color: #416f03;
+  padding-right: 5px;
 }
 .jumbotron i:hover,
 .jumbotron i:focus,
 .jumbotron i.focus {
-  color: #ffffff;
+  color: #416f03;
 }
 .jumbotron ul {
   padding-bottom: 0px;
@@ -292,7 +291,7 @@ name {
   color:#ffffff;
   font-size:26px;
 }
-.green-band h3 {
+.green-band h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   color:#ffffff;
@@ -440,13 +439,41 @@ name {
   background: linear-gradient(to bottom, #71bf43 0%,#427003 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71bf43', endColorstr='#427003',GradientType=0 ); /* IE6-9 */
 }
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 10px;
-  padding-left: 0;
+
+
+/* PHP header nav */
+#green-header-nav a{
+  font-family: 'Montserrat', sans-serif;
+  color:#71bf43;
+  padding:15px;  
 }
-#footer-nav ol{
+#green-header-nav i{
+  font-size:25px;
+  color:#71bf43;
+}
+#green-header-nav li{
+  font-family: 'Montserrat', sans-serif;
+  color:#71bf43;
+  padding:15px;  
+}
+#green-header-nav li:before {
+  color:#71bf43;
+  font-family: FontAwesome;
+  padding-right: 5px;
+}
+#green-header-nav > li > a:hover,
+#green-header-nav > li > a:focus {
+  color: #00aeef;
+  background-color: transparent;
+}
+#green-header-navv > li > a > i:hover,
+#green-header-nav > li > a > i:focus {
+  color: #00aeef;
+  background-color: transparent;
+}
+
+/* PHP footer nav*/
+#footer-nav{
   padding-left: 0;
 }
 #footer-nav li{
@@ -488,6 +515,6 @@ ol {
 #footer-nav li:before {
   color: #ffffff;
   font-family: FontAwesome;
-  padding-right: 10px;
+  padding-right: 5px;
 }
 

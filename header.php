@@ -85,7 +85,11 @@
 				</button><!--button div-->
 			</div><!--navbar div-->
 			<div id="navbar" class="navbar-collapse collapse">
-				<?php wp_nav_menu( array('menu_id' => 'green-header-nav')); ?>
+				<?php wp_nav_menu( array(
+					'menu_id' => 'green-header-nav',
+					'theme_location' => 'header-menu'
+				)); ?>
+
 			</div><!--/.nav-collapse -->
 		</div><!--/.container-fluid -->
 	</nav>

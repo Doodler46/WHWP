@@ -47,31 +47,6 @@
 		</div><!--container-->
 	</div><!--blue band-->
 
-	<!-- Nav bar -->
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button><!--button div-->
-			</div><!--navbar div-->
-			<div id="navbar" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					<li><a href="http://www.wholehealthmn.com"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-					<li><a href="http://www.wholehealthmn.com/about.html">About Whole Health</a></li>
-					<li><a href="http://www.wholehealthmn.com/meet-us.html">Meet Us</a></li>
-					<li><a href="http://www.wholehealthmn.com/patients.html">New Patients</a></li>
-					<li><a href="http://www.wholehealthmn.com/services.html">Services</a></li>
-					<li><a href="http://www.wholehealthmn.com/blog.html">Blog</a></li>
-					<li><a href="http://www.wholehealthmn.com/forms.html">Forms</a></li>
-					<li><a href="http://www.wholehealthmn.com/contact.html">Contact Us</a></li>
-				</ul><!--navbar div-->
-			</div><!--/.nav-collapse -->
-		</div><!--/.container-fluid -->
-	</nav>
 
 		<!-- Wordpress Nav bar --> 
 	<nav class="navbar navbar-default">

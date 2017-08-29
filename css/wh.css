@@ -168,11 +168,19 @@ name {
   color: #00aeef;
   font-weight: 600;
 }
+.jumbotron a i{
+  color: #00aeef;
+  font-weight: 600;
+}
 .jumbotron a:hover,
 .jumbotron a:focus,
 .jumbotron a.focus {
-
 }
+.jumbotron a i:hover,
+.jumbotron a i:focus,
+.jumbotron a i.focus {
+  color: #00aeef;
+}  
 .jumbotron i {
   font-size:35px;
   color: #416f03;
@@ -445,7 +453,8 @@ name {
 #green-header-nav a{
   font-family: 'Montserrat', sans-serif;
   color:#71bf43;
-  padding:15px;  
+  padding:10px; 
+  font-size: 15px; 
 }
 #green-header-nav i{
   font-size:25px;
@@ -454,19 +463,23 @@ name {
 #green-header-nav li{
   font-family: 'Montserrat', sans-serif;
   color:#71bf43;
-  padding:15px;  
+  padding-bottom:20px;
+  padding-top: 20px;
+  list-style: none;
+  display: inline;
 }
 #green-header-nav li:before {
   color:#71bf43;
   font-family: FontAwesome;
   padding-right: 5px;
+  font-size: 25px;
 }
 #green-header-nav > li > a:hover,
 #green-header-nav > li > a:focus {
   color: #00aeef;
   background-color: transparent;
 }
-#green-header-navv > li > a > i:hover,
+#green-header-nav > li > a > i:hover,
 #green-header-nav > li > a > i:focus {
   color: #00aeef;
   background-color: transparent;

@@ -12,10 +12,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="<?php bloginfo('description'); ?>">
 
-	
+	<link href="<?php echo get_template_directory_uri(); ?>/style.css" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.css" rel="stylesheet">
-  <link href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.css" rel="stylesheet">
-  <link href="<?php echo get_template_directory_uri(); ?>/css/wh.css" rel="stylesheet">
+  	<link href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.css" rel="stylesheet">
+  	<link href="<?php echo get_template_directory_uri(); ?>/css/wh.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,600i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
 

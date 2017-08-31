@@ -16,7 +16,7 @@
 				<div class="row">
 					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 						<!-- check if the repeater field has rows of data (quote content custom fields) -->
-						<div class="cycle-slideshow" data-cycle-slides="> .slide">
+						<div class="cycle-slideshow quote-left" data-cycle-slides="> .slide">
 							<?php if( have_rows('quote_left') ): ?>
 								<!-- loop through the rows of data -->
 								<?php while ( have_rows('quote_left') ) : the_row(); ?>
@@ -36,7 +36,7 @@
 					</div>	<!--/.col-->
 					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 						<!-- check if the repeater field has rows of data (quote content custom fields) -->
-						<div class="cycle-slideshow" data-cycle-slides="> .slide">
+						<div class="cycle-slideshow quote-right" data-cycle-slides="> .slide">
 							<?php if( have_rows('quote_right') ): ?>
 								<!-- loop through the rows of data -->
 								<?php while ( have_rows('quote_right') ) : the_row(); ?>

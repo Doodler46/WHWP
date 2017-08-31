@@ -383,7 +383,13 @@ name {
   margin-left: 0;
 }
 
+.quote-left img {
+  float: right;
+}
 
+.quote-right img {
+  float: left;
+}
 
 
 /* Social Media */

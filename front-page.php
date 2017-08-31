@@ -22,13 +22,14 @@
 								<?php while ( have_rows('quote_left') ) : the_row(); ?>
 									<div class="slide">
 										<!-- display a sub field value -->
+										<img src="<?php the_sub_field('quote_image_left'); ?>" alt="<?php the_sub_field('quote_name'); ?>" />
 										<p>
 											<?php the_sub_field('quote_text_left'); ?>
 										</p>
 										<p>
 											<?php the_sub_field('quote_name_left'); ?>
 										</p>
-										<img src="<?php the_sub_field('quote_image_left'); ?>" alt="<?php the_sub_field('quote_name'); ?>" />
+										
 									</div><!--/.slide-->
 								<?php endwhile; ?>
 							<?php endif; ?>
@@ -42,13 +43,14 @@
 								<?php while ( have_rows('quote_right') ) : the_row(); ?>
 									<div class="slide">
 										<!-- display a sub field value -->
+										<img src="<?php the_sub_field('quote_image_right'); ?>" alt="<?php the_sub_field('quote_name'); ?>" />
 										<p>
 											<?php the_sub_field('quote_text_right'); ?>
 										</p>
 										<p>
 											<?php the_sub_field('quote_name_right'); ?>
 										</p>
-										<img src="<?php the_sub_field('quote_image_right'); ?>" alt="<?php the_sub_field('quote_name'); ?>" />
+										
 									</div><!--/.slide-->
 								<?php endwhile; ?>
 							<?php endif; ?>

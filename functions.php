@@ -25,8 +25,15 @@ if (function_exists('add_theme_support'))
     add_image_size('medium', 250, '', true); // Medium Thumbnail
     add_image_size('small', 120, '', true); // Small Thumbnail
     add_image_size('custom-size', 700, 200, true); // Custom Thumbnail Size call using the_post_thumbnail('custom-size');
+<<<<<<< HEAD
     // disable srcset on frontend
     add_filter('max_srcset_image_width', create_function('', 'return 1;'));
+=======
+
+    // disable srcset on frontend
+    add_filter('max_srcset_image_width', create_function('', 'return 1;'));
+
+>>>>>>> 3d60759a5f86543cc7dcbaa378763170f1a57ce9
     // Add Support for Custom Backgrounds - Uncomment below if you're going to use
     /*add_theme_support('custom-background', array(
     'default-color' => 'FFF',
@@ -344,9 +351,18 @@ add_shortcode('html5_shortcode_demo', 'html5_shortcode_demo'); // You can place 
 add_shortcode('html5_shortcode_demo_2', 'html5_shortcode_demo_2'); // Place [html5_shortcode_demo_2] in Pages, Posts now.
 // Shortcodes above would be nested like this -
 // [html5_shortcode_demo] [html5_shortcode_demo_2] Here's the page title! [/html5_shortcode_demo_2] [/html5_shortcode_demo]
+<<<<<<< HEAD
 /*------------------------------------*\
     ShortCode Functions
 \*------------------------------------*/
+=======
+
+
+/*------------------------------------*\
+	ShortCode Functions
+\*------------------------------------*/
+
+>>>>>>> 3d60759a5f86543cc7dcbaa378763170f1a57ce9
 // Shortcode Demo with Nested Capability
 function html5_shortcode_demo($atts, $content = null)
 {

@@ -29,8 +29,8 @@
   </div><!--social div-->
 </footer>
 
-  <p>Copyright &copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. All rights reserved.</p>		   
-	<?php wp_footer(); ?>		
+  <p style="text-align: center;">Copyright &copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. All rights reserved.</p>      
+  <?php wp_footer(); ?>   
 
 
 
@@ -39,5 +39,5 @@
 <script src="http://malsup.github.com/jquery.cycle2.js"></script> 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.js"></script> 
-	</body>
+  </body>
 </html>

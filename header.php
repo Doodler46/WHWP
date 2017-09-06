@@ -60,6 +60,7 @@
 				</button><!--button div-->
 			</div><!--navbar div-->
 			<div id="navbar" class="navbar-collapse collapse">
+				<a href="<?php blog_info('site_url'); ?>" class="home fa fa-home"></a>
 				<?php wp_nav_menu( array(
 					'menu_id' => 'green-header-nav',
 					'theme_location' => 'header-menu'

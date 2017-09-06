@@ -1,5 +1,5 @@
 <!doctype html>
-<html <?php language_attributes(); ?> class="no-js" style="overflow-x: hidden">
+<html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
@@ -19,12 +19,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,600i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
 
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 	<?php wp_head(); ?>
 </head>
 
@@ -60,6 +54,7 @@
 				</button><!--button div-->
 			</div><!--navbar div-->
 			<div id="navbar" class="navbar-collapse collapse">
+				<a href="<?php bloginfo('url'); ?>" class="home fa fa-home"></a>
 				<?php wp_nav_menu( array(
 					'menu_id' => 'green-header-nav',
 					'theme_location' => 'header-menu'

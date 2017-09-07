@@ -94,11 +94,18 @@
   padding: 10px;
 }
 .hero {
-  background-image:url(../img/wh_hero_wide.jpg);
-  min-height: 400px;
+  background-image:url(http://wh.danburdeski.com/wp-content/themes/Whole_health/img/wh_hero_wide.jpg);
+  min-height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
+  z-index: 1;
+}
+.arch {
+  background-repeat: no-repeat;
+  background-position: top center;
+  z-index: 999;
+  position: absolute;
 }
 
 

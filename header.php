@@ -73,7 +73,8 @@
 		      </div><!--col div-->
 		    </div><!--row div-->
 	  	</div><!--container div-->
-	  	<div class="logo">
-	    	<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/501295459_hero_large.jpg" alt="hero"/>
-	  	</div><!--logo div-->
-	</header>
+  <!-- hero image -->
+	    <img class="arch img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/hero_arch.png" alt="curve"/>
+  		<div class="hero">
+  		</div>	
+  </header>

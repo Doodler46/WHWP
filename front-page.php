@@ -2,9 +2,8 @@
 
 <!-- About us section -->
 <div class="container">
-  <div class="jumbotron">
-    <div class="row">
-      <div class="col-lg-12">
+  <div class="row">
+    <div class="col-lg-12">
 
 		<!-- Start WordPress loop -->
 		<?php if (have_posts()): while (have_posts()) : the_post(); ?>
@@ -62,9 +61,8 @@
 		<!-- End WordPress loop -->
 		<?php endwhile; endif; ?> 
 	
-      </div>    
-    </div>
-  </div><!--jumbotron-->
+    </div>    
+  </div>
 </div><!--container-->
 	           
 <?php get_footer(); ?>

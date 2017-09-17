@@ -107,7 +107,14 @@
   z-index: 999;
   position: absolute;
 }
-
+.ideal {
+  background-image:url(http://wh.danburdeski.com/wp-content/themes/Whole_health/img/Ideal_weightloss_web.jpg);
+  min-height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  z-index: 1;
+}
 
 /* paragraph styles */
 strong {
@@ -303,10 +310,19 @@ name {
 /* green band content */
 .green-banner-ip {
   background-image:url(../img/Ideal_weightloss_web.jpg);
-  min-height: 400px;
+  min-height: 250px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center right;
+  margin-top: 15px;
+}
+.green-banner-social {
+  background-image:url(../img/WH_social.jpg);
+  min-height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  margin-top: 15px;
 }
 .green-band {
   background: #71bf43; /* Old browsers */
@@ -343,7 +359,8 @@ name {
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 15px;
-  line-height: 2;
+  line-height: 1.4;
+  padding-left: 20px;
 }
 .green-band a {
   text-decoration: none;

@@ -332,6 +332,7 @@ name {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71bf43', endColorstr='#427003',GradientType=0 ); /* IE6-9 */
   padding-bottom:50px;
   margin-bottom:50px;
+  margin-top: -10px;
 }
 .green-band h1 {
   font-family: 'Montserrat', sans-serif;

@@ -18,6 +18,7 @@
   	<link href="<?php echo get_template_directory_uri(); ?>/css/wh.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,600i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+	<link src="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 	<?php wp_head(); ?>
 </head>

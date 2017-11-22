@@ -34,9 +34,9 @@
 							<?php endif; ?>
 						</div><!--/.cycle-sldieshow-->
 					</div>	<!--/.col-->
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="col-lg-6 col-md-6 col-sm-12 hidden-xs">
 						<!-- check if the repeater field has rows of data (quote content custom fields) -->
-						<div class="cycle-slideshow quote-right" data-cycle-slides="> .slide">
+						<div class="cycle-slideshow quote-right" data-cycle-slides="> .slide" data-cycle-delay="2000">
 							<?php if( have_rows('quote_right') ): ?>
 								<!-- loop through the rows of data -->
 								<?php while ( have_rows('quote_right') ) : the_row(); ?>

@@ -70,8 +70,10 @@
 .green-navbar i{
   font-size:25px;
 }
-
-
+.green-navbar i > a {
+  color: #71bf43;
+  text-decoration: none;
+}
 
 /* images */
 #logo {

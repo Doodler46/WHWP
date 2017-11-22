@@ -9,7 +9,7 @@
 }
 .navbar .navbar-nav {
     display: inline-block;
-    float: none;
+    float: center;
 }
 .navbar .navbar-collapse {
     text-align: center;

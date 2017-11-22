@@ -69,7 +69,7 @@
 	<header>
 	  	<div class="container">
 	    	<div class="row">
-			  	<div class="col-lg-12">
+			  	<div class="col-lg-12 col-xs-8 col-xs-offset-2">
 	 	   			<center><a href="<?php bloginfo('url'); ?>"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/WH_logo.png" alt="logo"/></a></center>
 		      </div><!--col div-->
 		    </div><!--row div-->

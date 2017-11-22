@@ -523,9 +523,9 @@ name {
   font-family: 'Montserrat', sans-serif;
   color:#71bf43;
   padding-bottom:20px;
-  padding-top: 20px;
+  padding-top: 10px;
   list-style: none;
-  display: inline;
+  display: table;
 }
 #green-header-nav li:before {
   color:#71bf43;
@@ -563,7 +563,6 @@ name {
   margin-top:10px;
   text-align: left;
   text-decoration: none;
-  display: inline-block;
   width:100%;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;

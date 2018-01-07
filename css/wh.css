@@ -539,7 +539,7 @@ name {
 }
 #green-header-nav li:before {
   color:#71bf43;
-  font-family: FontAwesome;
+  font-family: 'FontAwesome';
   padding-right: 5px;
   font-size: 25px;
 }

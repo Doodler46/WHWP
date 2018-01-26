@@ -535,7 +535,7 @@ name {
   padding-bottom:20px;
   padding-top: 10px;
   list-style: none;
-  display: table;
+  display: inline-block;
 }
 #green-header-nav li:before {
   color:#71bf43;

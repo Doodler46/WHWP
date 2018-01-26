@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <?php the_field('green_benefits')?>
+        <?php the_field('green_benefits_section')?>
       </div>
     </div>
   </div>
